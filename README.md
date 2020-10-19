@@ -22,18 +22,18 @@ As INPUT the software takes the:
   - launch year & time to saturation (with linear increase) for 4 products
   - saturation level of product share in % (with respect to company share)
 
-A max of 4 new products can be added for a portfolio of max. 5 products.
+A max of 4 new products can be added for a portfolio of max. total of 5 products.
 
 The OUTPUT of the software is:
   - company market share in units per year
   - product market share in units per year
 
-Classes and methods are used.
+Classes and methods are been used.
 
 Schematic drawing:
 
-![alt text](https://github.com/DirkMueller8/product_portfolio/blob/master/Portfolio_scaled.tif "The successive cannabalization process for a base product 1, and abbreviations used in the software.")
+![alt text](https://github.com/DirkMueller8/product_portfolio/blob/master/portfolio_scaled.tif "The successive cannabalization process for a base product 1, and abbreviations used in the software.")
 
 Example of the source code:
 
-![alt text](https://github.com/DirkMueller8/product_portfolio/blob/master/snapshot_1.png "Excerpt of code showing the tkinter class")
+![alt text](https://github.com/DirkMueller8/product_portfolio/blob/master/snapshot.png "Excerpt of code showing the tkinter class")
