@@ -32,7 +32,7 @@ Classes and methods are been used.
 
 Schematic drawing:
 
-![alt text](https://github.com/DirkMueller8/product_portfolio/blob/master/portfolio_scaled.tif "The successive cannabalization process for a base product 1, and abbreviations used in the software.")
+![alt text](https://github.com/DirkMueller8/product_portfolio/blob/master/portfolio_scaled.png "The successive cannabalization process for a base product 1, and abbreviations used in the software.")
 
 Example of the source code:
 
