@@ -2,19 +2,23 @@
 **********************************************
 Software:		Python 3.8.3
 
-Version Number:	1.0
+Version:	  1.0
 
 Date: 			Oct 19, 2020
 
 Author:			Dirk Mueller
 **********************************************
-This program models a product portfolio that successively, by launching new products, cannibalizes a base product (marked as no. 1).
 
-Libraries used:
+#Purpose
+This program models a product portfolio that, by successive launches of new products, cannibalizes a base product.
+
+#Libraries
+The following libraries were used:
 - tkinter
 - PIL
 
-As INPUT the software takes the:
+#Input
+As input the software takes the:
   - market size
   - growth of market size
   - existing company share of the total market
@@ -24,16 +28,20 @@ As INPUT the software takes the:
 
 A max of 4 new products can be added for a portfolio of max. total of 5 products.
 
-The OUTPUT of the software is:
+#Output
+The output of the software is:
   - company market share in units per year
   - product market share in units per year
 
+#Architecture
 Classes and methods are been used.
 
-Schematic drawing:
+#GUIs
+![The successive cannabalization process for a base product, and the landing (input) page.](https://github.com/DirkMueller8/product_portfolio/blob/master/landing_page.png)
 
-![alt text](https://github.com/DirkMueller8/product_portfolio/blob/master/portfolio_scaled.png "The successive cannabalization process for a base product 1, and abbreviations used in the software.")
+![Results page with the calculated annual numbers.](https://github.com/DirkMueller8/product_portfolio/blob/master/result_page.png)
 
+#Source code
 Example of the source code:
 
-![alt text](https://github.com/DirkMueller8/product_portfolio/blob/master/snapshot.png "Excerpt of code showing the tkinter class")
+![Excerpt of code showing the tkinter class"](https://github.com/DirkMueller8/product_portfolio/blob/master/snapshot.png)
