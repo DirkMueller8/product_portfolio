@@ -104,6 +104,5 @@ class CompanyDefinition(tk.Frame):
         self.entry.grid(row=5, column=1)
         self.entry.insert(10, '1.0')  
 ```
-![](https://github.com/DirkMueller8/product_portfolio/blob/master/snapshot.png)
 
 *Fig 3: Excerpt of code showing the tkinter class.*
