@@ -62,7 +62,7 @@ Classes and methods are been used.
 
 Example of the source code:
 
-´´´Python
+```Python
 class ImageClass(tk.Frame):
     def __init__(self, parent):
         tk.Frame.__init__(self, parent)
@@ -103,7 +103,7 @@ class CompanyDefinition(tk.Frame):
         self.entry = tk.Entry(root, width=12, textvariable=self.growthcompany)
         self.entry.grid(row=5, column=1)
         self.entry.insert(10, '1.0')  
-´´´
+```
 ![](https://github.com/DirkMueller8/product_portfolio/blob/master/snapshot.png)
 
 *Fig 3: Excerpt of code showing the tkinter class.*
