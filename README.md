@@ -1,12 +1,12 @@
 ## Successive cannabalization of base product to maintain product portfolio
 **********************************************
-Software:		Python 3.8.3
+Software:	&emsp;	Python 3.8.3
 
-Version:	  1.0
+Version:	&emsp;  1.0
 
-Date: 			Oct 19, 2020
+Date: 	&emsp;		Oct 19, 2020
 
-Author:			Dirk Mueller
+Author:	&emsp;		Dirk Mueller
 **********************************************
 
 **Purpose**
@@ -63,9 +63,7 @@ Classes and methods are been used.
 Example of the source code:
 
 ´´´python
-
 class ImageClass(tk.Frame):
-
     def __init__(self, parent):
         tk.Frame.__init__(self, parent)
         txt = 'Portfolio Creator'
@@ -77,7 +75,6 @@ class ImageClass(tk.Frame):
         self.label = tk.Label(root, image=self.disp).grid(row=1, column=0, columnspan=4)
 
 class YearDefinition(tk.Frame):
-
     def __init__(self, parent):
         txt = 'First year (yr): '
         self.label = tk.Label(root, text=txt).grid(row=2, column=0)
@@ -85,7 +82,6 @@ class YearDefinition(tk.Frame):
         self.startyear = tk.Entry(root, width=12, textvariable=self.startyear)
         self.startyear.grid(row=2, column=1)
         self.startyear.insert(10, '2018')
-
         self.label = tk.Label(root, text='Time period (yrs): '). \
             grid(row=3, column=0)
         self.timeperiod = tk.StringVar()
@@ -94,7 +90,6 @@ class YearDefinition(tk.Frame):
         self.entry.insert(10, '10')
 
 class CompanyDefinition(tk.Frame):
-
     def __init__(self, parent):
         self.label = tk.Label(root, text='Company market share (%): '). \
             grid(row=4, column=0)
@@ -107,8 +102,7 @@ class CompanyDefinition(tk.Frame):
         self.growthcompany = tk.StringVar()
         self.entry = tk.Entry(root, width=12, textvariable=self.growthcompany)
         self.entry.grid(row=5, column=1)
-        self.entry.insert(10, '1.0')
-        
+        self.entry.insert(10, '1.0')     
 ´´´
 ![](https://github.com/DirkMueller8/product_portfolio/blob/master/snapshot.png)
 
