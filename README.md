@@ -1,4 +1,4 @@
-## Successive cannabalization of base product to maintain product portfolio
+# Successive Cannibalization of Base Product to Maintain Product Portfolio
 **********************************************
 Software:	&emsp;	Python 3.8.3
 
@@ -9,21 +9,21 @@ Date: 	&emsp;		Oct 19, 2020
 Author:	&emsp;		Dirk Mueller
 **********************************************
 
-**Purpose**
+## Purpose ##
 
 This program models a product portfolio that, by successive launches of new products, cannibalizes a base product.
 
 
-**Libraries**
+## Libraries ##  
 
 The following libraries were used:
 - tkinter
 - PIL
 
 
-**Input**
+## Input ##  
 
-As input the software takes the:
+As input, the software takes the:
   - market size
   - growth of market size
   - existing company share of the total market
@@ -31,26 +31,26 @@ As input the software takes the:
   - launch year & time to saturation (with linear increase) for 4 products
   - saturation level of product share in % (with respect to company share)
 
-A max of 4 new products can be added to form a portfolio of a total of 5 products.
+A maximum of 4 new products can be added to form a portfolio of a total of 5 products.
 
 
-**Output**
+## Output ##  
 
 The output of the software is:
   - company market share in units per year
   - product market share in units per year
 
 
-**Architecture**
+## Architecture ##  
 
-Classes and methods are been used.
+Classes and methods are used.
 
 
-**GUIs**
+## GUIs ##  
 
 ![](https://github.com/DirkMueller8/product_portfolio/blob/master/landing_page.png)
 
-*Fig 1: The successive cannabalization process for a base product, and the landing (input) page.*
+*Fig 1: The successive cannibalization process for a base product, and the landing (input) page.*
 
 
 ![](https://github.com/DirkMueller8/product_portfolio/blob/master/result_page.png)
@@ -58,9 +58,9 @@ Classes and methods are been used.
 *Fig 2: Results page with the calculated annual numbers.*
 
 
-**Source code**
+## Source code ##  
 
-Example of the source code:
+Example of the source code in the tkinter class:
 
 ```Python
 class ImageClass(tk.Frame):
@@ -104,5 +104,3 @@ class CompanyDefinition(tk.Frame):
         self.entry.grid(row=5, column=1)
         self.entry.insert(10, '1.0')  
 ```
-
-*Fig 3: Excerpt of code showing the tkinter class.*
