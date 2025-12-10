@@ -1,4 +1,4 @@
-# Successive Cannibalization of Base Product to Maintain Product Portfolio
+# Successive Cannibalization of Base Product to Maintain a Healthy Product Portfolio
 **********************************************
 Software:	&emsp;	Python 3.8.3
 
